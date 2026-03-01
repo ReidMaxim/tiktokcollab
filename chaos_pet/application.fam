@@ -1,0 +1,9 @@
+App(
+    appid="chaos_pet",
+    name="Chaos Pet",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="chaos_pet_app",
+    requires=["gui"],
+    targets=["f7"],
+    fap_category="Games",
+)
